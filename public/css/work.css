@@ -1,0 +1,95 @@
+/*---------------------
+  Work
+-----------------------*/
+.work {
+    overflow: hidden;
+    background: #100028;
+    display: none;
+}
+
+.work__gallery {
+    margin-right: -10px;
+}
+
+.work__item {
+    height: 311px !important;
+    width: calc(16.67% - 10px);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work__item:hover .work__item__hover {
+    bottom: 0;
+}
+
+.work__item.large__item {
+    height: 633px !important;
+    width: calc(33.33% - 10px);
+}
+
+.work__item.wide__item {
+    width: calc(33.33% - 10px);
+    height: 311px !important;
+}
+
+.work__item .play-btn {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+}
+
+.grid-sizer {
+    width: calc(16.67% - 10px);
+}
+
+.work__item__hover {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: -300px;
+    width: 100%;
+    padding: 25px 30px 20px;
+    transition: all, 0.5s;
+}
+
+.work__item__hover h4 {
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+}
+
+.work__item__hover ul li {
+    color: #adadad;
+    list-style: none;
+    font-size: 16px;
+    margin-right: 23px;
+    position: relative;
+    display: inline-block;
+}
+
+.work__item__hover ul li:after {
+    position: absolute;
+    right: -18px;
+    top: 1px;
+    content: "/";
+}
+
+.work__item__hover ul li:last-child {
+    margin-right: 0;
+}
+
+.work__item__hover ul li:last-child:after {
+    display: none;
+}

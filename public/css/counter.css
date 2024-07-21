@@ -1,0 +1,86 @@
+/*---------------------
+  Counter
+-----------------------*/
+.counter {
+    background: linear-gradient(to right, #9B5DD2, #7A63EC);
+    height: 840px;
+    padding-top: 380px;
+    overflow: hidden;
+}
+
+.counter__content {
+    padding: 0px 50px;
+}
+
+.counter__item {
+    background: black;
+    transform: rotate(45deg);
+    height: 255px;
+    width: 255px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.counter__item::before {
+    position: absolute;
+    left: -1px;
+    bottom: -2px;
+    height: 636px;
+    width: 636px;
+    border-left: 1px solid #333333;
+    border-top: 1px solid #333333;
+    content: "";
+    z-index: -1;
+}
+
+.counter__item.second__item {
+    margin-top: -185px;
+}
+
+.counter__item.second__item:before {
+    left: -316px;
+    bottom: -65px;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: none;
+    border-top: none;
+}
+
+.counter__item.four__item {
+    margin-top: -185px;
+}
+
+.counter__item.four__item:before {
+    left: -380px;
+    bottom: -380px;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: none;
+    border-top: none;
+}
+
+.counter__item.third__item:before {
+    left: -65px;
+    bottom: -317px;
+}
+
+.counter__item__text {
+    transform: rotate(-45deg);
+}
+
+.counter__item__text h2 {
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 6px;
+    margin-top: 18px;
+}
+
+.counter__item__text p {
+    color: white;
+    margin-bottom: 0;
+}

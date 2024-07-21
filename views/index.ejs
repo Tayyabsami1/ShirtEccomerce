@@ -3,15 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Videograph Template">
+    <meta name="keywords" content="Videograph, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -19,20 +21,18 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
     <!-- Page Preloder -->
-
-    <!-- TODO PreLoader not loading -->
     <div id="preloder">
         <div class="loader"></div>
     </div>
 
-    <!-- Navbar -->
-    <%- include('./partials/navbar') %>
+    <!-- Header Section Begin -->
 
-    <!-- Main Hero Section  -->
+     <%- include('./partials/navbar') %>
 
     <!-- Hero Section Begin -->
     <section class="hero">
@@ -80,8 +80,8 @@
     </section>
     <!-- Hero Section End -->
 
-      <!-- Services Section Begin -->
-      <section class="services spad">
+    <!-- Services Section Begin -->
+    <section class="services spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4">
@@ -144,8 +144,8 @@
     </section>
     <!-- Services Section End -->
 
-      <!-- Work Section Begin -->
-      <section class="work">
+    <!-- Work Section Begin -->
+    <section class="work">
         <div class="work__gallery">
             <div class="grid-sizer"></div>
             <div class="work__item wide__item set-bg" data-setbg="img/work/work-1.jpg">
@@ -444,20 +444,21 @@
         </div>
     </section>
     <!-- Call To Action Section End -->
-
+     
     <!-- Footer Section Begin -->
     <%- include('./partials/footer') %>
-    <!-- Footer Section End -->
-</body>
 
- <!-- Js Plugins -->
- <script src="js/jquery-3.3.1.min.js"></script>
- <script src="js/bootstrap.min.js"></script>
- <script src="js/jquery.magnific-popup.min.js"></script>
- <script src="js/mixitup.min.js"></script>
- <script src="js/masonry.pkgd.min.js"></script>
- <script src="js/jquery.slicknav.js"></script>
- <script src="js/owl.carousel.min.js"></script>
- <script src="js/main.js"></script>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
 
 </html>

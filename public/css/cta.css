@@ -1,0 +1,43 @@
+/*---------------------
+  Call To Active
+-----------------------*/
+.callto {
+    padding-top: 130px;
+    background-color: #100028;
+}
+
+
+
+.callto.sp__callto {
+    padding-top: 0;
+    background: #100028;
+}
+
+.callto__text h2 {
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 55px;
+    margin-bottom: 22px;
+}
+
+.callto__text p {
+    font-size: 15px;
+    color: #ffffff;
+    opacity: 0.7;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+.callto__text a {
+    color: #ffffff;
+    background: #0270D7;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Play", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 14px 32px 12px;
+}
+

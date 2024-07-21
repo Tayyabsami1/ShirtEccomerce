@@ -1,0 +1,97 @@
+/*---------------------
+  Hero
+-----------------------*/
+.hero__slider.owl-carousel .owl-item.active .hero__text span {
+    top: 0;
+    opacity: 1;
+}
+
+.hero__slider.owl-carousel .owl-item.active .hero__text h2 {
+    top: 0;
+    opacity: 1;
+}
+
+.hero__slider.owl-carousel .owl-item.active .hero__text .primary-btn {
+    top: 0;
+    opacity: 1;
+}
+
+.hero__slider.owl-carousel .owl-dots {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 45px;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.hero__slider.owl-carousel .owl-dots button {
+    color: #adadad;
+    font-size: 18px;
+    font-family: "Play", sans-serif;
+    margin-right: 16px;
+    position: relative;
+    display: inline-block;
+}
+
+.hero__slider.owl-carousel .owl-dots button.active {
+    color: #ffffff;
+}
+
+.hero__slider.owl-carousel .owl-dots button.active:after {
+    background: #ffffff;
+    height: 2px;
+}
+
+.hero__slider.owl-carousel .owl-dots button:after {
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+    content: "";
+}
+
+.hero__slider.owl-carousel .owl-dots button:last-child {
+    margin-right: 0;
+}
+
+.hero__item {
+    height: 684px;
+    padding-top: 255px;
+}
+
+.hero__text span {
+    color: #ffffff;
+    display: block;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    transition: all, 0.3s;
+}
+
+.hero__text h2 {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin-bottom: 38px;
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    transition: all, 0.5s;
+}
+
+.hero__text .primary-btn {
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    transition: all, 0.7s;
+}
