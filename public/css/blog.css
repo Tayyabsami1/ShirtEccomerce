@@ -1,0 +1,54 @@
+/*---------------------
+  Latest
+-----------------------*/
+.latest {
+    background: #0D0817;
+    background: #141516;
+    padding-bottom: 80px;
+}
+
+.blog__item.latest__item {
+    margin-bottom: 0;
+    padding:20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.blog__item h4{
+    color: #A8A8A8;
+}
+
+.blog__item ul li{
+    color: #A8A8A8;
+
+}
+
+.blog__item.latest__item:hover {
+    border: 1px solid #222222 !important;
+    background: url(../img/blog/blog-1.jpg);
+    background-size: cover;
+}
+
+.latest__slider.owl-carousel .owl-item .col-lg-4 {
+    max-width: 100%;
+}
+
+.latest__slider.owl-carousel .owl-dots {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.latest__slider.owl-carousel .owl-dots button {
+    height: 8px;
+    width: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.latest__slider.owl-carousel .owl-dots button.active {
+    background: #00bfe7;
+}
+
+.latest__slider.owl-carousel .owl-dots button:last-child {
+    margin-right: 0;
+}
